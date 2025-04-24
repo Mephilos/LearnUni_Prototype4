@@ -149,4 +149,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c50138c0ae9b4e41895b59aa172fd1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveForce: 100
+  moveForce: 5
+  hasPowerup: 0
+  powerIndicator: {fileID: 7945554700246941516, guid: 66b085b8d49494ee4bb023cfefe2ec32, type: 3}
