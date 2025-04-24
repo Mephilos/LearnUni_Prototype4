@@ -5,14 +5,14 @@
 .DS_Store
 .utmp/
 
-*.prefab
-*.prefab.meta
-*.unity
-*.unity.meta
-*.wav
-*.wav.meta
-*.ogg
-*.ogg.meta
+#*.prefab
+#*.prefab.meta
+#*.unity
+#*.unity.meta
+#*.wav
+#*.wav.meta
+#*.ogg
+#*.ogg.meta
 
 /[Ll]ibrary/
 /[Tt]emp/
