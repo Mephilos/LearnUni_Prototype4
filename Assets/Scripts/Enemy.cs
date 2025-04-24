@@ -18,5 +18,9 @@ public class Enemy : MonoBehaviour
         //추격 방향 (방향 백터 정규화)
         Vector3 chaseDirection = (player.transform.position - transform.position).normalized;
         enemyRb.AddForce(chaseDirection * chaseSpeed);
+        if(transform.position.y < -10)
+        {
+            Destroy(gameObject);
+        }
     }
 }
