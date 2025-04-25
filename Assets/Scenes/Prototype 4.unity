@@ -212,10 +212,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: PowerupIndicator
       objectReference: {fileID: 0}
-    - target: {fileID: 7945554700246941516, guid: 66b085b8d49494ee4bb023cfefe2ec32, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8385300902873894533, guid: 66b085b8d49494ee4bb023cfefe2ec32, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.006408
@@ -290,7 +286,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: baedb52f5bbcc44bdbc18cfa1962e668, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyCount: 0
+  waveNumber: 0
   enemyPrefabs: {fileID: 8951308005111339545, guid: f11ccf7b056a74b389b3662bd19f0b5b, type: 3}
+  powerupPrefabs: {fileID: 7128298457206873345, guid: b2e434cbb1d71427591af1dbd8e0f72d, type: 3}
 --- !u!4 &1002059067
 Transform:
   m_ObjectHideFlags: 0
@@ -726,10 +725,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -1933082801158235024, guid: b2e434cbb1d71427591af1dbd8e0f72d, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1030123662845251868, guid: b2e434cbb1d71427591af1dbd8e0f72d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
